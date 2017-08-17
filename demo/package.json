@@ -26,7 +26,7 @@
     "@angular/platform-browser-dynamic": "^4.3.4",
     "@angular/router": "^4.3.4",
     "@ngx-plus/ngx-forms": "^0.3.1",
-    "@ngx-plus/ngx-logos": "^1.0.0",
+    "@ngx-plus/ngx-logos": "^1.2.1",
     "animate.css": "^3.5.2",
     "bootstrap": "^4.0.0-beta",
     "core-js": "^2.5.0",

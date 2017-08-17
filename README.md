@@ -1,5 +1,5 @@
 <h3 align="center">
-<img src="https://raw.githubusercontent.com/ngx-plus/ngx-forms/master/assets/ngx-plus-light.png" width="150px" />
+<img src="https://ngx-plus.github.io/ngx-logos/png/ngx-logo-lightblue.png"/>
 
 ```console
 @ngx-plus/ngx-forms
