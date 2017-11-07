@@ -1,0 +1,11 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "name": "@ngx-plus/ngx-forms",
+  "version": "0.4.3",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "index.ts"
+    },
+    "dest": "@ngx-plus/ngx-forms"
+  }
+}
