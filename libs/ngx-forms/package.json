@@ -6,6 +6,6 @@
     "lib": {
       "entryFile": "index.ts"
     },
-    "dest": "@ngx-plus/ngx-forms"
+    "dest": "dist/libs/ngx-forms"
   }
 }
