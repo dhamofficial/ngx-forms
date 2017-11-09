@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
-import { NgxFormsModule } from '@ngx-plus/ngx-forms'
+import { NgxFormsModule } from '../../../../../libs/ngx-forms/'
 
 import { UiModule } from '../ui/ui.module'
 

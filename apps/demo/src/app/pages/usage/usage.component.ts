@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { NgxFormConfig } from '@ngx-plus/ngx-forms'
+import { NgxFormConfig } from '../../../../../../libs/ngx-forms'
 
 @Component({
   selector: 'usage',
