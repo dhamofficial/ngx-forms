@@ -11,34 +11,42 @@
     "url": "https://github.com/ngx-plus/ngx-forms/issues"
   },
   "private": false,
-  "keywords": ["angular", "angular2", "angular4", "forms", "ngx-forms", "ngx-plus", "colmena", "ngx"],
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "forms",
+    "ngx-forms",
+    "ngx-plus",
+    "colmena",
+    "ngx"
+  ],
   "contributors": [
     "Brannon N. Darby II <brannon@ngx.plus> (https://github.com/brannon-darby)",
     "Bram Borggreve <borggreve@gmail.com> (https://github.com/beeman)"
   ],
   "license": "MIT",
   "lint-staged": {
-    "*.ts": ["npm run format", "git add"]
+    "*.ts": [
+      "npm run format",
+      "git add"
+    ]
   },
   "scripts": {
     "add:contributor": "all-contributors add",
     "build": "npm run build:libs && npm run build:demo",
     "build:demo": "ng build",
-    "build:libs": "npm run build-forms",
-    "build-forms": "ng-packagr -p libs/ngx-forms/package.json && npm-run-all -p build-forms:*",
-    "build-forms:css": "cpx libs/ngx-forms/src/css/**/*.css @ngx-plus/ngx-forms/css",
-    "build-forms:autoprefixer": "postcss @ngx-plus/ngx-forms/css/*.css --use autoprefixer -d @ngx-plus/ngx-forms/css",
+    "build:libs": "ng-packagr -p libs/ngx-forms/package.json",
+    "postbuild:libs": "cpx libs/ngx-forms/src/css/**/*.css @ngx-plus/ngx-forms/css",
     "ng": "ng",
     "start": "ng serve",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "precommit": "lint-staged",
-    "format":
-      "prettier --single-quote --no-semi --trailing-comma es5  --print-width 120 --write \"{apps,libs}/**/*.ts\"",
+    "format": "prettier --single-quote --no-semi --trailing-comma es5  --print-width 120 --write \"{apps,libs}/**/*.ts\"",
     "preghpages": "cd demo && ng build --prod --base-href $BASE_HREF",
-    "ghpages":
-      "cd demo && npx angular-cli-ghpages --no-silent --repo=https://GH_TOKEN@github.com/$GH_ORG/$GH_REPO.git --name=$GH_NAME --email=$GH_EMAIL",
+    "ghpages": "cd demo && npx angular-cli-ghpages --no-silent --repo=https://GH_TOKEN@github.com/$GH_ORG/$GH_REPO.git --name=$GH_NAME --email=$GH_EMAIL",
     "now-build": "npm run build:demo",
     "now-start": "npx serve demo/dist",
     "update": "ncu -a"
@@ -67,8 +75,6 @@
     "cpx": "^1.5.0",
     "font-awesome": "^4.7.0",
     "ngx-clipboard": "^8.1.1",
-    "npm-run-all": "^4.1.1",
-    "postcss-cli": "^4.1.1",
     "prismjs": "^1.8.4",
     "quill": "^1.3.4",
     "rxjs": "^5.5.2",
