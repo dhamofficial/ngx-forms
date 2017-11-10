@@ -1,0 +1,1 @@
+{"$schema":"../../node_modules/ng-packagr/package.schema.json","name":"@ngx-plus/ngx-forms","version":"0.4.3","main":"bundles/ngx-forms.umd.js","module":"@ngx-plus/ngx-forms.es5.js","es2015":"@ngx-plus/ngx-forms.js","typings":"ngx-forms.d.ts","metadata":"ngx-forms.metadata.json"}
