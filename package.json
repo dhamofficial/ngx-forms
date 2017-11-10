@@ -45,8 +45,8 @@
     "e2e": "ng e2e",
     "precommit": "lint-staged",
     "format": "prettier --single-quote --no-semi --trailing-comma es5  --print-width 120 --write \"{apps,libs}/**/*.ts\"",
-    "preghpages": "cd demo && ng build --prod --base-href $BASE_HREF",
-    "ghpages": "cd demo && npx angular-cli-ghpages --no-silent --repo=https://GH_TOKEN@github.com/$GH_ORG/$GH_REPO.git --name=$GH_NAME --email=$GH_EMAIL",
+    "preghpages": "ng build --prod --base-href $BASE_HREF",
+    "ghpages": "npx angular-cli-ghpages --no-silent --repo=https://GH_TOKEN@github.com/$GH_ORG/$GH_REPO.git --name=$GH_NAME --email=$GH_EMAIL",
     "now-build": "npm run build:demo",
     "now-start": "npx serve demo/dist",
     "update": "ncu -a"
