@@ -101,6 +101,7 @@
     "prettier": "1.7.4",
     "prismjs": "^1.8.4",
     "protractor": "~5.1.2",
+    "standard-version": "^4.2.0",
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2",
     "typescript": "2.4.2"
