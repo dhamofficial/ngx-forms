@@ -25,6 +25,7 @@
     "build": "npm run build:libs && npm run build:demo",
     "build:demo": "ng build",
     "build:libs": "ng-packagr -p libs/ngx-forms/package.json",
+    "clean": "node bin/clean",
     "e2e": "ng e2e",
     "format":
       "prettier --single-quote --no-semi --trailing-comma es5  --print-width 120 --write \"{apps,libs}/**/*.ts\"",
