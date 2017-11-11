@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.1"></a>
+## [0.5.1](https://github.com/ngx-plus/ngx-forms/compare/v0.5.0...v0.5.1) (2017-11-11)
+
+
+### Bug Fixes
+
+* **ngx-forms:** enhance package.json from actual lib ([f83643a](https://github.com/ngx-plus/ngx-forms/commit/f83643a))
+* **ngx-forms:** move deps to devDeps ([b153812](https://github.com/ngx-plus/ngx-forms/commit/b153812))
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/ngx-plus/ngx-forms/compare/v0.3.1...v0.5.0) (2017-11-10)
 
